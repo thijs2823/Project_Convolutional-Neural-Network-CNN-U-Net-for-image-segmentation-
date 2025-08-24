@@ -61,10 +61,16 @@ The following plots show the training and validation performance over 60 epochs.
 
 <img width="500" height="691" alt="image" src="https://github.com/user-attachments/assets/e3c5f067-df4a-46fd-906e-2d2702983cd0" />
 
+Figure 1. _Plot training_
+
+
 <img width="500" height="691" alt="image" src="https://github.com/user-attachments/assets/0d11b257-08ba-4176-97db-ea0588d023b9" />
+
+Figure 2. _Plot Learning Rate_
 
 ![Githubafb](https://github.com/user-attachments/assets/c8d0fe57-0e7c-460f-b1ae-3d506d95453f)
 
+Figure 3. _The original image, annotations from Annotator 1 and Annotator 2, and the learning process visualized_
 
 ## Predictions
 
@@ -91,6 +97,7 @@ The following plots show the training and validation performance over 60 epochs.
 | <img width="185" src="https://github.com/user-attachments/assets/3bef3d0f-3981-4f62-b778-2fc5bc2ddc00"> | <img width="245" src="https://github.com/user-attachments/assets/eda06186-0d49-48fe-b24b-7ddc5b49f664"> |
 | <img width="185" src="https://github.com/user-attachments/assets/9cb95f0d-949a-4b7c-af60-0a56c269beff"> | <img width="245" src="https://github.com/user-attachments/assets/498fad51-42b0-4dda-b7d0-ca98a2105b43"> |
 
+Figure 4. _Model applied on trainings and test images_
 
 
 ## Conclusion
