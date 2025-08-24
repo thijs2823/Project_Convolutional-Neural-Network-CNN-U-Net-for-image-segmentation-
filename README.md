@@ -43,7 +43,7 @@ STARE/
 * Training will stop early if validation Dice score does not improve for 10 consecutive epochs.
 
 
-## How Multiple Masks Are Used
+### How Multiple Masks Are Used
 
 Each image may have two masks from different annotators. During training:
 * Each mask is treated as a separate training example; this increases effective training data and improves robustness to annotation differences.
@@ -51,8 +51,6 @@ Each image may have two masks from different annotators. During training:
 ## Output
 
 * Console logs of training progress and validation scores.
-* `training_loss_curve.png`: plots training and validation loss over epochs.
-* The trained model can be saved manually by uncommenting the `torch.save()` line inside the best validation Dice check.
 
 
 ## Training Progress
