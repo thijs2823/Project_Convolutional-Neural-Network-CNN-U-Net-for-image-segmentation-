@@ -25,11 +25,6 @@ This repository contains a PyTorch implementation of a UNet model for biomedical
 * scikit-learn
 * tqdm
 
-Install dependencies with:
-
-```bash
-pip install torch torchvision numpy matplotlib pillow scikit-learn tqdm
-```
 
 ## Dataset Setup
 The code expects the STARE dataset structured as:
