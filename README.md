@@ -37,13 +37,13 @@ STARE/
 ```
 
 ## Usage
-
+* Dataset contains 20 retina images with 2 x 20 masks (two different annotarors)
 * Training and validation split is 80/20.
 * Uses GPU if available.
 * Training will stop early if validation Dice score does not improve for 10 consecutive epochs.
 
 
-### How Multiple Masks Are Used
+### Multiple Masks
 
 Each image may have two masks from different annotators. During training:
 * Each mask is treated as a separate training example; this increases effective training data and improves robustness to annotation differences.
@@ -62,7 +62,8 @@ The following plots show the training and validation performance over 60 epochs.
 Figure 1. _Plot training_
 
 
-<img width="500" height="691" alt="image" src="https://github.com/user-attachments/assets/0d11b257-08ba-4176-97db-ea0588d023b9" />
+<img width="500" height="691" alt="image" src="https://github.com/user-attachments/assets/c3f48dbf-3cad-4bca-8bcf-d37873a24d28" />
+
 
 Figure 2. _Plot Learning Rate_
 
@@ -104,7 +105,7 @@ The results show that some vessels identified by human annotators are missed by 
 
 
 
-## Refereces 
+## References 
 
 1. Hoover, A., Kouznetsova, V., & Goldbaum, M. (2000). *STARE: Structured Analysis of the Retina Dataset*. Retrieved from [https://cecas.clemson.edu/\~ahoover/stare/](https://cecas.clemson.edu/~ahoover/stare/)
 2. Hoover, A., & Goldbaum, M. (2003). Locating the optic nerve in a retinal image using the fuzzy convergence of the blood vessels. IEEE Transactions on Medical Imaging, 22(8), 951–958.
