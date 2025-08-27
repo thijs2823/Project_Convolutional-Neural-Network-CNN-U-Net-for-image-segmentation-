@@ -4,7 +4,9 @@ My first attempt at building a Convolutional Neural Network for educational purp
 
 ## UNet Segmentation on STARE Dataset
 
-This repository contains a PyTorch implementation of a UNet model for biomedical image segmentation using the STARE dataset [1,2]. The dataset consists of retina images with annotations from two different annotators. This implementation handles both annotators’ masks to improve training robustness and generalization.
+This repository contains a PyTorch implementation of a UNet model for biomedical image segmentation using the STARE dataset [1,2]. 
+This dataset consists of retina images with annotations from two different annotators. 
+The purpuse of this models is to learn from the annotators' masks and to be able to draw the annotations independently. 
 
 ## Features
 
@@ -46,7 +48,7 @@ STARE/
 ### Multiple Masks
 
 Each image may have two masks from different annotators. During training:
-* Each mask is treated as a separate training example; this increases effective training data and improves robustness to annotation differences.
+* Each mask is treated as a separate training example; this increases effective training data and improves robustness to annotation differences (generalization).
 
 ## Output
 
@@ -62,7 +64,7 @@ The following plots show the training and validation performance over 60 epochs.
 Figure 1. _Plot training_
 
 
-<img width="500" height="691" alt="image" src="https://github.com/user-attachments/assets/c3f48dbf-3cad-4bca-8bcf-d37873a24d28" />
+<img width="500" height="691" alt="image" src="https://github.com/user-attachments/assets/5485bc1a-b959-46a9-91dc-e70133b9eed3" />
 
 
 Figure 2. _Plot Learning Rate_
