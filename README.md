@@ -6,7 +6,7 @@ My first attempt at building a Convolutional Neural Network for educational purp
 
 This repository contains a PyTorch implementation of a UNet model for biomedical image segmentation using the STARE dataset [1,2]. 
 This dataset consists of retina images with annotations from two different annotators. 
-The purpuse of this models is to learn from the annotators' masks and to be able to draw the annotations independently. 
+The purpose of this models is to learn from the annotators' masks and to be able to draw the annotations independently. 
 
 ## Features
 
